@@ -107,3 +107,29 @@ class Coche(Vehiculo):
 coche = Coche()
 print(coche.mover())"""
 
+#=============================================================
+# Ejemplo - clase Estudiante
+
+"""
+class Estudiante:
+    total_estudiantes = 0
+
+    def __init__(self,nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+        Estudiante.total_estudiantes += 1
+    
+    def printEstudiante(self):
+        print(f"Estudiante 1:{estudiante1.nombre}, Edad:{estudiante1.edad}")
+
+#crear objetos de la clase estudiante
+estudiante1 = Estudiante("Carlos",22)
+estudiante2 = Estudiante("Ana",25)
+estudiante3 = Estudiante("Luis",28)
+estudiante4 = Estudiante("Yenny",30)
+
+estudiante1.printEstudiante()
+
+print(f"Total de estudiantes:{Estudiante.total_estudiantes}")
+"""
+
