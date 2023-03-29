@@ -133,3 +133,33 @@ estudiante1.printEstudiante()
 print(f"Total de estudiantes:{Estudiante.total_estudiantes}")
 """
 
+"""
+class empleado:
+    #variable de clase a 0 para contar empleados
+    total_empleados=0
+    #metodo constructor con parametros para informacion de empleados
+    def __init__(self,nombre,edad,salario):
+        self.nombre = nombre
+        self.edad = edad
+        self.salario = salario
+        empleado.total_empleados += 1
+
+#metodo para aumentar salario
+    def aumentar_salario(self,aumento):
+        self.salario += aumento
+
+#metodo para mostrar informacion
+    def mostrar_info(self):
+        return f"Empleado: {self.nombre}, Edad: {self.edad},Salario: {self.salario}"
+
+empleado1 = empleado("Carlos",30,3000)
+print(empleado1.mostrar_info())
+empleado1.aumentar_salario(2000)
+print(empleado1.mostrar_info())
+"""
+
+
+
+
+
+
